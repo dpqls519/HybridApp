@@ -1,0 +1,46 @@
+﻿/* 스타일 초기화 */
+* { margin: 0px ; padding: 0px ; }
+header, body, footer { font-size: 14px; font-family:MapoMaponaru; width: 100%; }
+header, footer { text-align : center ; }
+body { margin: auto; }
+footer { position: fixed; bottom: 0px; }
+
+/* 공통 스타일 */
+h1 { padding: 15px; font-size: 30px ; color: white; }
+h2 { font-size: 15px; color: white; }
+h3 { margin: 10px; font-size: 15px; color: black; text-shadow: 2px 1px yellow; }
+a {text-decoration: none;}
+h1, h2 { background-image: url(pro03.png); background-repeat: repeat-x; }
+
+img { border: 0; padding: 2px; }
+
+nav { margin: 5px 5px; }
+nav > span > a { font-style: bold; margin: 0 ; padding: 3px; border: 1px solid #6633FF ; float: right; text-decoration: none; background: #9999FF; color: black; }
+nav > span > a:hover { background: #0099cc; color: white; }
+@media only screen and (min-width: 321px) and (orientation: landscape) {
+	section { width: 80%; float: left; }
+	aside { width: 20%; text-align: center; float: right; }
+	footer { clear: both; }
+}
+.content  { clear: both; }
+.section1 ul li { list-style-position: inside; list-style-image: url("li.png"); }
+
+/* mintro.html 적용 스타일 */
+#stu-pic { width: 6em; height: 8em; float: left; }
+
+/* minfo.html 적용 스타일 */
+#year-table { background: #99ccFF; table-layout: auto; width: 80%; border:1px solid #0033FF; border-collapse: seperate; text-align: center; }
+#year-table thead { background: #00ccFF; text-align: center; }
+#logo { position: fixed; top:130px; left: 70px; opacity: 0.1; } 
+
+/* mstudy.html 적용 스타일 */
+video { margin: 5px; width: 350px; height: 200px; }
+
+/* mcareer.html 적용 스타일 */
+.semi-pic { width: 4em; height: 3em;  }
+#pic-container { overflow: hidden; }
+#pic-container:hover { height: 220px; }
+#pic1:hover { -webkit-transform: translate(150px,50px) scale(7,5); transition: all 0.3s ease-in-out; }
+#pic2:hover { -webkit-transform: translate(100px,50px) scale(5,5); transition: all 0.3s ease-in-out; }
+
+
